@@ -9,6 +9,7 @@ class App extends StatelessWidget {
   App({Key? key}) : super(key: key);
 
   final _router = GoRouter(
+    urlPathStrategy: UrlPathStrategy.path,
     routes: [
       GoRoute(
         path: '/',
